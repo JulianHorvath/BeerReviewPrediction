@@ -9,7 +9,7 @@ Data facts:
 * 3197 beer reviews
 * 934 breweries
 * Features describing general profiles: Name - Style - ABV - Min./Max. IBU.
-* Features picturing specific profiles: Body - Malty - Fruits - Hoppy... These were built counting words found on at least 25 reviews or more, adding 1 point for each word related to the feature. For more information, please visit ([BeerReviewPrediction/Beer Descriptors Simplified.xlsx](https://github.com/JulianHorvath/BeerReviewPrediction/blob/main/Beer%20Descriptors%20Simplified.xlsx)) 
+* Features picturing specific profiles: Body - Malty - Fruits - Hoppy... These were built counting words found on at least 25 reviews or more, adding 1 point for each word related to the feature. For more information, please visit (https://github.com/JulianHorvath/BeerReviewPrediction/blob/main/Beer%20Descriptors%20Simplified.xlsx) 
 * Review features: review overall - review taste - review palate - review aroma - review appearance. They are on a scale from 1 to 5, being the average of beer reviews. 
 
 Sources: 
