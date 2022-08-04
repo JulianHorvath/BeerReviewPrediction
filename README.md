@@ -25,8 +25,8 @@ Sources:
 
 * Multiple Linear Regression had an outstanding performance on test stage, reaching out 0.93 of R squared and the following error metrics: MAE=0.0267, MSE=0.0011, RMSE=0.0338.
 * Support Vector Regressor (SVR) was the other model with a great performance. It had 0.91 of R squared and the next error metrics: MAE=0.0306, MSE=0.0014, RMSE=0.0374.
-* All models improved their error metrics significantly if data is normalized before testing. This is a key aspect for a compressed scale as Likert scale: we had to minimize the errors as much as we can. Zone with major variability was condensed under 3.
-* We isolated major error zone and retested models. Picking out MSE as primarly error metric to penalize mistakes, we found out Multiple Linear Regression (0.0034) and SVR (0.0029) were again the best performers, after normalizing input data.
+* All models improved their error metrics significantly when data is normalized before testing. This is a key aspect for a compressed scale as Likert scale: we had to minimize the errors as much as we could. Zone with major variability was condensed under 3.
+* We isolated major error zone and retested models. Picking out MSE as primarly error metric to penalize deviations, we found out Multiple Linear Regression (0.0034) and SVR (0.0029) were again the best performers, after normalizing input data.
 
 ## Insights
 ### Business insights
@@ -43,6 +43,6 @@ Sources:
 
 ## Final considerations: business impact
 * Review overall of products/services can be predicted disintegrating reviews in more specific dimensions.
-* This focus on consumption sensory experience. General evaluating always requires some abstraction level that is not the aim of reviews.
+* This focus on consumption sensorial experience. General evaluating always requires some abstraction level that is not the aim of reviews.
 * On beer experience specifically, it is more important palate than appearance or aroma.
 * With some limitations, our model could be useful for all economic models based on reviews, from deliveries to on demand platforms enterprises, just for mentioning some famed examples.
