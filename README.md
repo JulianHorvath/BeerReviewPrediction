@@ -46,3 +46,9 @@ Sources:
 * This focus on consumption sensorial experience. General evaluating always requires some abstraction level that is not the aim of reviews.
 * On beer experience specifically, it is more important palate than appearance or aroma.
 * With some limitations, our model could be useful for all economic models based on reviews, from deliveries to on demand platforms enterprises, just for mentioning some famed examples.
+
+## Bonus: some images from EDA
+
+![Tridimensional correlations](https://github.com/JulianHorvath/BeerReviewPrediction/blob/main/newplot.png)
+![Correlations](https://github.com/JulianHorvath/BeerReviewPrediction/blob/main/correlaciones.png)
+![Decision tree pruned](https://github.com/JulianHorvath/BeerReviewPrediction/blob/main/arbol%20de%20decision.png)
